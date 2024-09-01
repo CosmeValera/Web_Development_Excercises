@@ -1,17 +1,8 @@
-import {Avatar, Card, CardContent, Typography} from "@mui/material";
 import React from "react";
 
-interface User {
-    id: number;
-    first_name: string;
-    last_name: string;
-    email: string;
-    phone_number: string;
-}
+import { Avatar, Card, CardContent, Typography } from "@mui/material";
 
-interface UserCardProps {
-    user: User;
-}
+import { UserCardProps } from "../interfaces";
 
 export const UserCard: React.FC<UserCardProps> = ({user}) => {
     return (

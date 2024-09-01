@@ -1,18 +1,9 @@
-import {Grid2} from "@mui/material";
-import {UserCard} from "./UserCard";
 import React from "react";
 
-interface User {
-    id: number;
-    first_name: string;
-    last_name: string;
-    email: string;
-    phone_number: string;
-}
+import { Grid2 } from "@mui/material";
+import { UserCard } from "./UserCard";
 
-interface UsersGridProps {
-    users: User[];
-}
+import { UsersGridProps } from "../interfaces";
 
 export const UsersGrid: React.FC<UsersGridProps> = ({users}) => {
     return (

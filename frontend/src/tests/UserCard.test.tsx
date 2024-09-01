@@ -1,7 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import { describe, it, expect } from 'vitest';
-import { UserCard } from '../components/UserCard';
 import React from 'react';
+
+import { describe, it, expect } from 'vitest';
+import { render, screen } from '@testing-library/react';
+
+import { UserCard } from '../components/UserCard';
 
 interface User {
     id: number;

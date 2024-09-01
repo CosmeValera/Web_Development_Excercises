@@ -1,7 +1,9 @@
-import {render, screen} from '@testing-library/react';
-import {describe, it, expect} from 'vitest';
-import {UsersGrid} from '../components/UsersGrid';
 import React from 'react';
+
+import { describe, it, expect } from 'vitest';
+import { render, screen } from '@testing-library/react';
+
+import { UsersGrid } from '../components/UsersGrid';
 
 interface User {
     id: number;
